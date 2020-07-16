@@ -19,6 +19,7 @@ cs = digitalio.DigitalInOut(board.D4)
 # python object that knows how to get temperatures from amplifier
 temperature_sensor = adafruit_max31855.MAX31855(spi, cs)
 
+# all the indented commands below run until the program is stopped
 while True:
 
     # print date, time, and temperature to screen
@@ -27,6 +28,6 @@ while True:
     # by writing ".temperature" we ask the board for a reading
     print(temperature_sensor.temperature)
 
-    # wait for one second
+    # wait for the desired measurement interval
     time.sleep(measurement_interval_seconds)
 
