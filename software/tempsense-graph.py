@@ -9,9 +9,12 @@ import datetime
 from bokeh.plotting import figure, ColumnDataSource
 from bokeh.io import curdoc
 
+# TODO: improve variable names where possible
+# TODO: add required concepts (arrays, dictionaries)
+
 # initalizations
 
-log_interval_ms = 1E3
+log_interval_ms = 5E3
 
 # maybe don't use arrays here either if not necessary
 # continue plotting to screen
@@ -86,19 +89,23 @@ def make_document(doc):
     temp_fig.xaxis.axis_label = 'Time'
     temp_fig.yaxis.axis_label = 'Temperature (C)'
 
+
     # create lines for each temperature measurement
     # do we want lines at all?  too much complexity?
     # each line uses data from our temperature table above
-    temp_fig.line(source=temp_source, x='time', y='temp0', legend='1 (CS5)', line_width=1, color='blue')
-    temp_fig.line(source=temp_source, x='time', y='temp1', legend='2 (CS6)', line_width=1, color='green')
-    temp_fig.line(source=temp_source, x='time', y='temp2', legend='3 (CS7)', line_width=1, color='red')
-    temp_fig.line(source=temp_source, x='time', y='temp3', legend='4 (CS8)', line_width=1, color='black')
+    temp_fig.line(source=temp_source, x='time', y='temp0', legend_label='1 (CS5)', line_width=1, color='blue')
+    temp_fig.line(source=temp_source, x='time', y='temp1', legend_label='2 (CS6)', line_width=1, color='green')
+    temp_fig.line(source=temp_source, x='time', y='temp2', legend_label='3 (CS7)', line_width=1, color='red')
+    temp_fig.line(source=temp_source, x='time', y='temp3', legend_label='4 (CS8)', line_width=1, color='black')
 
     # create shapes and colors and sizes for each temperature measurement
     temp_fig.circle(source=temp_source, x='time', y='temp0', size=4, color='blue')
     temp_fig.circle(source=temp_source, x='time', y='temp1', size=4, color='green')
     temp_fig.circle(source=temp_source, x='time', y='temp2', size=4, color='red')
     temp_fig.circle(source=temp_source, x='time', y='temp3', size=4, color='black')
+
+    temp_fig.legend.location = 'top_left'
+    print(type(temp_fig.legend))
 
     # set up the figure and the plot
     plots = temp_fig
