@@ -1,0 +1,7 @@
+name: tempsense
+dependencies: 
+  - python=3.8
+  - bokeh
+  - pip:
+    - Adafruit-Blinka
+    - adafruit-circuitpython-max31855
