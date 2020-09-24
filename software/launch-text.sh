@@ -1,8 +1,11 @@
 #!/bin/bash
 
 # create environment variable
-export BLINKA_FT232H=1
+# set BLINKA_FT232H=1    # command for windows
+export BLINKA_FT232H=1   # command for linux and os x
+
 # activate python custom library
-source activate tempsense
+conda activate tempsense
+
 # run text output program in python
 python tempsense-text.py
