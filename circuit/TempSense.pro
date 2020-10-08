@@ -1,4 +1,4 @@
-update=Monday, September 21, 2020 at 11:50:08 AM
+update=Thursday, October 08, 2020 at 11:56:08 AM
 version=1
 last_client=eeschema
 [general]
@@ -239,7 +239,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=/Users/dsoto/Dropbox/writing/WP27-TEMPSENSE/repository/TEMPSENSE kicad/
+PlotDirectoryName=../../paper/figures/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
