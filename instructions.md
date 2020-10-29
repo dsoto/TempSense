@@ -27,7 +27,7 @@ Note the designations for thermocouple polarities on the thermocouple amplifier 
 Note that not all thermocouples follow the color convention and that a reversed thermocouple will give a lower reading with higher temperatures.
 
 ![Assembled instrument and bare printed circuit
-board.](../figures/tempsense-v0p2-photo.jpg){#fig:photo width="90%"}
+board.](./figures/tempsense-v0p2-photo.jpg){#fig:photo width="90%"}
 
 ## Software environment
 
@@ -124,4 +124,4 @@ To run the real-time graphing application, run the launch script by typing
 You should see a browser window open with a graph window.
 To end the programs, type Ctrl-C in the console window to interrupt the program.
 
-![Graphing in Browser Window](../figures/graph-screenshot.png)
+![Graphing in Browser Window](./figures/graph-screenshot.png)
