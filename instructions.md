@@ -27,7 +27,7 @@ Note the designations for thermocouple polarities on the thermocouple amplifier 
 Note that not all thermocouples follow the color convention and that a reversed thermocouple will give a lower reading with higher temperatures.
 
 ![Assembled instrument and bare printed circuit
-board.](./figures/tempsense-v0p2-photo.jpg){#fig:photo width="90%"}
+board.](./figures/tempsense-v0p2-photo.jpg)
 
 ## Software environment
 

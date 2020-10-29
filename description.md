@@ -45,8 +45,8 @@ Providing these benefits created some tradeoffs.
 The instrument requires a host computer, has no case, and is much less portable as a result.
 Setting up the device requires Python and USB library installations and an environment variable configuration on the host computer which can be bewildering to new users.
 
-![Schematic for printed circuit board (PCB) fabrication. Only circuit board connections are shown and the thermocouple and USB connections omitted.](./figures/schematic.jpg){#fig:schematic width="90%"}
+![Schematic for printed circuit board (PCB) fabrication. Only circuit board connections are shown and the thermocouple and USB connections omitted.](./figures/schematic.jpg)
 
-![Block Diagram. The order of communication and dependencies are shown in the diagram.](./figures/block-diagram.jpg){#fig:block-diagram width="30%"}
+![Block Diagram. The order of communication and dependencies are shown in the diagram.](./figures/block-diagram.jpg)
 
-![Screenshot of browser-based real-time temperature graph.](./figures/graph-screenshot.png){#fig:graph width="90%"}
+![Screenshot of browser-based real-time temperature graph.](./figures/graph-screenshot.png)
