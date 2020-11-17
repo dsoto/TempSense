@@ -71,17 +71,17 @@ def make_document(webpage):
 
 
     # creates a plot figure, labels axes, and sets x-axis as time
-    graph = figure(title = '', x_axis_type='datetime')
+    graph = figure(title='TempSense v0.2', x_axis_type='datetime')
     graph.xaxis.axis_label = 'Time'
     graph.yaxis.axis_label = 'Temperature (C)'
 
     # create lines for each temperature measurement
     # each line uses data from 'graph_data' above
     # the x and y labels match the labels in 'graph_data'
-    graph.line(source=graph_data, x='time', y='temp0', legend_label='1 (CS5)', line_width=1, color='blue')
-    graph.line(source=graph_data, x='time', y='temp1', legend_label='2 (CS6)', line_width=1, color='green')
-    graph.line(source=graph_data, x='time', y='temp2', legend_label='3 (CS7)', line_width=1, color='red')
-    graph.line(source=graph_data, x='time', y='temp3', legend_label='4 (CS8)', line_width=1, color='black')
+    graph.line(source=graph_data, x='time', y='temp0', legend_label='T1', line_width=1, color='blue')
+    graph.line(source=graph_data, x='time', y='temp1', legend_label='T2', line_width=1, color='green')
+    graph.line(source=graph_data, x='time', y='temp2', legend_label='T3', line_width=1, color='red')
+    graph.line(source=graph_data, x='time', y='temp3', legend_label='T4', line_width=1, color='black')
 
     # create shapes and colors and sizes for each temperature measurement
     graph.circle(source=graph_data, x='time', y='temp0', size=4, color='blue')
@@ -94,7 +94,7 @@ def make_document(webpage):
 
     # add the graph to a web page and call update periodically
     webpage.add_root(graph)
-    webpage.title = "Temperature Plotting"
+    webpage.title = "TempSense v0.2"
     # tells the computer to update the graph by calling the "update" function at a regular time interval
     webpage.add_periodic_callback(update, log_interval_ms)
 
