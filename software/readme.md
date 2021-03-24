@@ -15,3 +15,9 @@ The included shell scripts export the environment variable, activate the python 
 The libraries for running these scripts can be installed with the conda package manager and environment file.
 
 > conda env create -f tempsense-environment.yml
+
+# License
+
+This software is released under the MIT License.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

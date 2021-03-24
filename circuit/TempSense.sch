@@ -1,16 +1,15 @@
 EESchema Schematic File Version 4
-LIBS:TEMPSENSE-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "TEMPSENSE v0.2"
+Title "TEMPSENSE"
 Date "2020-08-24"
 Rev "0.2"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "Licensed under CERN-OHL-P v2"
+Comment2 "Copyright 2021 Daniel Soto"
 Comment3 ""
 Comment4 ""
 $EndDescr

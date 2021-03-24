@@ -11,6 +11,8 @@ This repository contains the specifications and schematics for the hardware, sof
 
 ![Screenshot of real-time graph output.](./figures/graph-screenshot.png)
 
-[![License: CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-This work is licensed under a
-[Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0)
+The hardware in this project is licensed under CERN-OHL-P v2.
+
+The software in this project is licensed under MIT.
+
+The documentation is licensed under CC-BY 4.0.
