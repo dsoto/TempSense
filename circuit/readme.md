@@ -4,6 +4,11 @@ This is a simple multi-channel temperature logger board and real-time display ap
 
 This folder contains the circuit schematic and board layout files in KiCad format.
 
+# Ordering
+
+A circuit board can be purchased at this 
+[OSHPark link](https://oshpark.com/shared_projects/nJNRbfIO).
+
 # License
 
 This software is released under the CERN-OHL-P v2 license.
