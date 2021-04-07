@@ -18,6 +18,10 @@ The libraries for running these scripts can be installed with the conda package 
 
 # License
 
-This software is released under the MIT License.
+Copyright 2021 Daniel Soto
+
+Use of this source code is governed by an MIT-style
+license that can be found in the LICENSE file or at
+https://opensource.org/licenses/MIT.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
